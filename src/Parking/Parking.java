@@ -1,8 +1,8 @@
 package Parking;
 import java.util.Stack;
 public class Parking {
-    Stack <Integer> driveway = new Stack <>();
-    Stack <Integer> street = new Stack <>();
+    private Stack <Integer> driveway = new Stack <>();
+    private Stack <Integer> street = new Stack <>();
     public void removeCar(int removal){
         if (driveway.peek() != removal*-1 && !driveway.isEmpty()) {
             do {
