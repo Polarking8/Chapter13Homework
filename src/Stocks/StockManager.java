@@ -11,10 +11,19 @@ public class StockManager {
         blocks = new LinkedList<>();
     }
 
+    /**
+     * @param quantity the quantity of stocks bought
+     * @param cost the amount of money to buy the stocks for
+     */
     public void buy(int quantity, double cost){
         blocks.add(new Block(cost,quantity));
     }
 
+    /**
+     * @param quantity the quantity of stocks sold
+     * @param cost the amount selling the stocks for
+     * @return returns the gain of the stocks
+     */
     public double sell(int quantity, double cost){
         double gain = 0;
 

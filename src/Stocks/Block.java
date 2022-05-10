@@ -9,14 +9,23 @@ public class Block {
         this.quantity = quantity;
     }
 
+    /**
+     * @return the price of athe stocks
+     */
     public double getPrice() {
         return price;
     }
 
+    /**
+     * @return the quantity of stocks
+     */
     public int getQuantity() {
         return quantity;
     }
 
+    /**
+     * @param shares the amount of shares sold
+     */
     public void sell(int shares) {
         quantity -= shares;
     }

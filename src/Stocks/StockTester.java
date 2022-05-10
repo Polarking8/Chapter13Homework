@@ -3,9 +3,9 @@ package Stocks;
 public class StockTester {
     public static void main(String[] args) {
         StockManager manager = new StockManager();
-        manager.buy(100, 25);
-        manager.buy(200, 27);
-        manager.buy(60, 29);
+        manager.buy(300, 24);
+        manager.buy(100, 26);
+        manager.buy(30, 28);
 
         double salesPrice = 30;
         int soldQuantity = 200;
