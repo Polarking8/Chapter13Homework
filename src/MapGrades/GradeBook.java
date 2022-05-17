@@ -49,7 +49,7 @@ public class GradeBook {
     }
 
     /**
-     * @return
+     * @return returns the map of grades
      */
     public Map<String, String> getGrades(){
         return grades;
